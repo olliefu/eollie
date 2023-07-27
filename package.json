@@ -1,4 +1,5 @@
 {
+  "homepage" : "https://olliefu.github.com/eollie",
   "name": "eollie",
   "version": "1.1.8",
   "private": true,
@@ -21,7 +22,6 @@
     "react-scrollspy": "^3.4.3",
     "react-slick": "^0.29.0",
     "react-tabs": "^6.0.0",
-    "react-text-loop": "^2.3.0",
     "react-transition-group": "^4.4.2",
     "sass": "^1.57.1",
     "slick-carousel": "^1.8.1",
@@ -29,6 +29,8 @@
   },
   "scripts": {
     "start": "react-scripts start",
+    "predeploy":"npm run build",
+    "deploy":"gh-pages -d build",
     "build": "react-scripts build",
     "test": "react-scripts test",
     "eject": "react-scripts eject"
