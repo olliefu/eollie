@@ -1,5 +1,4 @@
 import React from "react";
-import TextLoop from "react-text-loop";
 
 const Slider = () => {
   return (
@@ -18,13 +17,9 @@ const Slider = () => {
             <div className="name_wrap">
               <h3>
                 <span>Oliver </span> Tan{" "}
-                <TextLoop>
+                <div>
                   <span className="loop-text">People Manager</span>
-                  <span className="loop-text"> Digital Creator</span>
-                  <span className="loop-text"> Tech Leader</span>
-                  <span className="loop-text"> A11y Consultant</span>
-                  <span className="loop-text"> Videographer</span>
-                </TextLoop>{" "}
+                </div>{" "}
               </h3>
             </div>
             {/* End title */}
