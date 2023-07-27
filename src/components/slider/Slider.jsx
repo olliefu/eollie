@@ -18,7 +18,7 @@ const Slider = () => {
               <h3>
                 <span>Oliver </span> Tan{" "}
                 <div>
-                  <span className="title-text">Inspiring People Manager</span>
+                  <span className="title-text">People Manager</span>
                 </div>{" "}
               </h3>
             </div>
