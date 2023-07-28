@@ -2946,7 +2946,9 @@ body.intro .loader_line:after {
   color: #fff !important;
   text-transform: capitalize;
   font-weight: 800;
+  display: inline-block;
   @media screen and (max-width: 1040px) {
+    color: #fff !important;
     font-weight: 700;
     font-size: 32px;
   }

@@ -1,4 +1,5 @@
 import React from "react";
+import { TypeAnimation } from 'react-type-animation';
 
 const Slider = () => {
   return (
@@ -18,7 +19,26 @@ const Slider = () => {
               <h3>
                 <span>Oliver </span> Tan{" "}
                 <div>
-                  <span className="title-text">People Manager</span>
+                    <TypeAnimation
+                      sequence={[
+                        // Same substring at the start will only be typed out once, initially
+                        'People Manager',
+                        2000, // wait 1s before replacing "Mice" with "Hamsters"
+                        'Tech Leader',
+                        2000,
+                        'Digital Creator',
+                        2000,
+                        'A11y Consultant',
+                        2000,
+                        'Videographer',
+                        2000
+                      ]}
+                      className="title-text"
+                      style={{ color : '#ffffff' }}
+                      wrapper="span"
+                      speed={180}
+                      repeat={Infinity}
+                    />
                 </div>{" "}
               </h3>
             </div>
